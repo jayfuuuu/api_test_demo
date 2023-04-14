@@ -1,0 +1,34 @@
+[
+    {
+        "name": "取得台北市一個月內的體育活動",
+        "init": {},
+        "request": {
+            "country": "A",
+            "activity_kind": "1",
+            "range_days": -30,
+            "offset_days": 0,
+            "paging":0
+        },
+        "test": {
+            "error_code":"0000",
+            "kind":["體育賽事","系列活動","運動課程"],
+            "country":"臺北市"
+        }
+    },
+    {
+        "name": "取得台中市一個月內的系列活動",
+        "init": {},
+        "request": {
+            "country": "B",
+            "activity_kind": "1",
+            "range_days": -30,
+            "offset_days": 0,
+            "paging":0
+        },
+        "test": {
+            "error_code":"0000",
+            "kind":["體育賽事","系列活動","運動課程"],
+            "country":"臺中市"
+        }
+    }
+]
