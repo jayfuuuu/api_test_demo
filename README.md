@@ -1,5 +1,5 @@
 # `API test automation demo`
-> This sample model of api test with pytest.
+> This is a sample API testing model with pytest.
 
 ### `Architecture`
 ```
