@@ -1,6 +1,7 @@
-# API test automation demo
-This sample model of api test with pytest
-## `Architecture`
+# `API test automation demo`
+> This sample model of api test with pytest.
+
+### `Architecture`
 ```
 .
 ├── README.md
